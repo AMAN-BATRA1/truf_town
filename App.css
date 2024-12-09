@@ -1,0 +1,392 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.main {
+  background: #eee;
+  height: 100vh;
+}
+
+.main .text-sec {
+  padding-top: 70px;
+}
+
+.main h4 {
+  padding-top: 50px;
+  font-weight: 700;
+  font-size: 32px;
+  color: #000;
+}
+
+.main span.desc {
+  display: block;
+  color: #585858;
+  font-size: 20px;
+  font-family: 'Nunito, sans-serif',;
+}
+
+.main img {
+  width: 80px;
+}
+
+.main input {
+  border: 1px solid #d6d6d6;
+  height: 56px;
+  border-radius: 12px;
+  padding: 12px 18px;
+  width: 345px;
+  color: #929292;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+  font-family: 'Nunito, sans-serif',;
+}
+
+.main input:hover {
+  border: 1px solid #d6d6d6;
+}
+
+.main input:focus-visible {
+  outline: none;
+}
+
+.main .continue-btn button {
+  background: #D0D0D0;
+  border: 1px solid #d0d0d0;
+  border-radius: 12px;
+  width: 476px;
+  height: 56px;
+  padding: 14px;
+  color: #979797;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Nunito, sans-serif',;
+}
+.main .active-continue-btn button:hover {
+  background: #4966c7;
+  /* border: 1px solid #d0d0d0; */
+  border-radius: 12px;
+  width: 476px;
+  height: 56px;
+  padding: 14px;
+  color: #979797;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Nunito, sans-serif',;
+}
+
+.main .active-continue-btn button {
+  background: #5c7ade;
+  /* border: 1px solid #d0d0d0; */
+  border-radius: 12px;
+  width: 476px;
+  height: 56px;
+  padding: 14px;
+  color: #979797;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Nunito, sans-serif',;
+}
+
+.main .continue-btn button:hover {
+  background-color: #D0D0D0;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
+  
+}
+
+.main p {
+  font-weight: 500;
+  color: #000;
+}
+
+.main p span {
+  color: #888;
+  font-size: 18px;
+}
+
+.main .img-sec {
+  right: 0;
+}
+
+.main .img-sec img {
+  width: 750px;
+}
+
+.main .img-sec p {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+}
+
+.main .inner {
+  margin: 40px 0 15px;
+}
+
+.main .inner .code {
+  background-color: #fff;
+  border: 1px solid #d6d6d6;
+  height: 56px;
+  border-radius: 12px;
+  padding: 12px 18px;
+  margin-right: 10px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.06);
+  width: 122px;
+  font-family: 'Nunito, sans-serif',;
+}
+
+.main .inner .code img {
+  width: 32px;
+}
+
+.main .inner .code span {
+  border-left: 2px solid #e8e8e8;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  .main input,
+  .main .continue-btn button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main input,
+  .main .continue-btn button {
+    width: 300px;
+  }
+
+
+}
+.main .google-btn button {
+  background: #670f0f;
+  border: 1px solid #d0d0d0;
+  border-radius: 12px;
+  width: 476px;
+  margin-top: 50px;
+  padding: 14px;
+  color: #000000;
+  font-weight: 600;
+  justify-content: center;
+  display: inline;
+  font-family: 'Nunito, sans-serif',;
+}
+@media (max-width: 767px) {
+  .main input,
+  .main .google-btn button {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main input,
+  .main .google-btn button {
+    width: 300px;
+  }
+
+
+}
+.login-options {
+  margin-top: 20px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Nunito, sans-serif',;
+}
+
+.google-login {
+  background-color: #4285f4;
+  color: white;
+  
+}
+
+.email-login {
+  background-color: #555;
+  color: white;
+}
+
+.phone-login {
+  display: flex;
+  gap: 10px;
+}
+
+.phone-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: 'Nunito, sans-serif',;
+}
+
+.phone-button {
+  padding: 10px 20px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Nunito, sans-serif',;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.divider span {
+  padding: 0 10px;
+  background-color: white;
+}
+.google-login-btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 476px; 
+  height: 56px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  gap: 5px; 
+  margin-top: 50px;
+  font-weight: 600;
+  font-family: 'Nunito, sans-serif',;
+}
+
+.google-login-btn button:hover {
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.google-login-btn img {
+  margin-top: 2px;
+  width: 45px;
+  height: 45px;
+}
+.login-container {
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  gap: 16px; /* Space between elements */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.separator {
+  display: flex;
+  align-items:flex-start;
+  width: 476px; /* Adjust to fit your layout */
+  gap: 10px; /* Space between line and text */
+}
+.separator hr {
+  flex: 1;
+  border: none;
+  height: .8px;
+  background-color: #000000;
+}
+
+.separator span {
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+}
+.phone-login-btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 476px; 
+  height: 56px;
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  gap: 10px; /* Space between the icon and text */
+  font-weight: 600;
+  font-family: 'Nunito, sans-serif',;
+}
+
+.phone-login-btn button:hover {
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.phone-login-btn img {
+  width: 20px;
+  height: 30px;
+}
+
+.email-login-btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 476px; 
+  height: 56px;
+  padding: 14px 18px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-family: 'Nunito, sans-serif',;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  gap: 10px; 
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.email-login-btn button:hover {
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.email-login-btn img {
+  width: 30px;
+  height: 25px;
+}
+.shimmer-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: #f6f7f8;
+}
+
+.shimmer {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    #f6f7f8 0%,
+    #eaeaea 50%,
+    #f6f7f8 100%
+  );
+  animation: shimmer 1s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
