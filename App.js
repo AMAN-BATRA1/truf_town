@@ -107,14 +107,14 @@ const App = () => {
       <div className="col-md-5">
         <div className="text-sec">
           <img
-            src="assets/logo.png"
+            src={require("./assets/logo.png")}
             className="img-fluid"
             alt="Logo"
             onClick={handleReload}
           />
 
           <h4 style={{fontSize:"30px"}}>Welcome to the Command Centre 
-          <img src="assets/shape.png" alt="shape" style={{height:25,width:24,marginLeft:5}}/>
+          <img src={require("./assets/shape.png")} alt="shape" style={{height:25,width:24,marginLeft:5}}/>
           </h4>
 
           <span className="desc">
@@ -123,7 +123,7 @@ const App = () => {
 
           <div class="google-login-btn">
             <button type="button" onClick={Working_on_it}>
-              <img src="assets/google.png" alt="Google Logo" />
+              <img src={require("./assets/google.png")} alt="Google Logo" />
               Login with Google
             </button>
           </div>
@@ -138,14 +138,14 @@ const App = () => {
 
           <div class="phone-login-btn">
             <button type="button" onClick={handleEmailLogin}>
-              <img src="assets/mobile.png" alt="Phone Icon" />
+              <img src={require("./assets/mobile.png")} alt="Phone Icon" />
               Login with Phone
             </button>
           </div>
 
           <div class="email-login-btn">
             <button type="button" onClick={Working_on_it}>
-              <img src="assets/mail.png" alt="Email Icon" />
+              <img src={require("./assets/mail.png")} alt="Email Icon" />
               Login with Email
             </button>
           </div>
@@ -159,7 +159,7 @@ const App = () => {
       <div className="col-md-5">
         <div className="text-sec">
           <img
-            src="assets/logo.png"
+            src={require("./assets/logo.png")}
             className="img-fluid"
             alt="Logo"
             onClick={handleReload}
@@ -171,7 +171,7 @@ const App = () => {
 
           <div className="inner d-flex align-items-center">
             <div className="code d-flex align-items-center">
-              <img src="assets/india.png" className="img-fluid" alt="Country" />
+              <img src={require("./assets/india.png")}  className="img-fluid" alt="Country" />
               <span>+91</span>
             </div>
             <input
@@ -219,7 +219,7 @@ const App = () => {
       <div className="col-md-5">
         <div className="text-sec">
           <img
-            src="assets/logo.png"
+            src={require("./assets/logo.png")}
             className="img-fluid"
             alt="Logo"
             onClick={handleReload}
@@ -343,7 +343,7 @@ const App = () => {
             {/* Right Section */}
             <div className="col-md-7">
               <div className="img-sec position-absolute">
-                <img src="assets/img.png" className="img-fluid" alt="Illustration" />
+                <img src={require("./assets/img.png")} className="img-fluid" alt="Illustration" />
                 <p>Let's keep the world playing!</p>
               </div>
             </div>
